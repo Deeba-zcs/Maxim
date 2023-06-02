@@ -101,7 +101,7 @@ export default function Services() {
       </section>
       <br/>
       <br/>
-      <Team/>
+      {/* <Team/> */}
     </div>
   );
 }
