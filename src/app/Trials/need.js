@@ -50,11 +50,11 @@ function BasicExample() {
           </h2>
           <div
             id="collapseOne"
-            className="accordion-collapse collapse show focuss"
+            className="accordion-collapse focuss collapse show "
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
-            <div className="desc accordion-body focuss">
+            <div className="desc accordion-body focuss ">
               Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
               volutpat lacus laoreet non curabitur gravida. Venenatis lectus
               magna fringilla urna porttitor rhoncus dolor purus non.
@@ -92,11 +92,11 @@ function BasicExample() {
           </h2>
           <div
             id="collapseTwo"
-            className="accordion-collapse collapse"
+            className="accordion-collapse focuss collapse"
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div className="desc accordion-body focus">
+            <div className="desc accordion-body focuss focus">
               Dolor sit amet consectetur adipiscing elit pellentesque habitant
               morbi. Id interdum velit laoreet id donec ultrices. Fringilla
               phasellus faucibus scelerisque eleifend donec pretium. Est
@@ -136,11 +136,11 @@ function BasicExample() {
           </h2>
           <div
             id="collapseThree"
-            className="accordion-collapse collapse"
+            className="accordion-collapse focuss collapse"
             aria-labelledby="headingThree"
             data-bs-parent="#accordionExample"
           >
-            <div className="desc accordion-body focus">
+            <div className="desc accordion-body focuss focus">
               Eleifend mi in nulla posuere sollicitudin aliquam ultrices
               sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla
               pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
@@ -180,11 +180,11 @@ function BasicExample() {
           </h2>
           <div
             id="collapseFour"
-            className="accordion-collapse collapse"
+            className="accordion-collapse focuss collapse"
             aria-labelledby="headingFour"
             data-bs-parent="#accordionExample"
           >
-            <div className="desc accordion-body focus">
+            <div className="desc accordion-body focuss focus">
               Molestie a iaculis at erat pellentesque adipiscing commodo.
               Dignissim suspendisse in est ante in. Nunc vel risus commodo
               viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
@@ -224,11 +224,11 @@ function BasicExample() {
           </h2>
           <div
             id="collapseFive"
-            className="accordion-collapse collapse"
+            className="accordion-collapse focuss collapse"
             aria-labelledby="headingFive"
             data-bs-parent="#accordionExample"
           >
-            <div className="desc accordion-body focus">
+            <div className="desc accordion-body focuss focus">
               Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
               vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
               nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut
