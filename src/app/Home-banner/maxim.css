@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+.hero {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-image: url('https://bootstrapmade.com/demo/templates/Maxim/assets/img/hero-bg.jpg');
+  background-size: cover;
+  position: relative;
+  /* margin-top: 70px; */
+  padding: 0;
+  display: flex!important;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.hero::before
+{
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* box-sizing: border-box; */
+
+}
+
+
+.top
+{
+  font: 28px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+
+}
+
+.bottom
+{
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+
+}
+
+
+.overlay
+{
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  z-index: -1;;
+}
+
+.pop
+{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    /* margin-right: auto;
+    margin-left: auto; */
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+
+
+
+@media only screen and (max-width: 992px)
+{
+    [class*="hero"]
+    {
+    /* margin-top: 60px; */
+    height: calc(100vh - 60px);
+    
+    }
+}
+
+.button
+{
+  color: white;
+  padding: 8px 28px;
+  font: 16px Raleway,sans-serif;
+  border: 2px solid white;
+  border-radius: 5px;
+  /* border-color: rgb(0, 0, 0); */
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.align-items-center 
+{
+  align-items: center!important;
+}
+
+.justify-content-center 
+{
+  justify-content: center!important;
+}
+
+.flex-column {
+  flex-direction: column!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+/* .super
+{
+
+
+} */
+
+/* .randomness
+{
+  z-index: -6;
+} */
+
+
+.margin
+{
+  margin-top: 660px;
+}
