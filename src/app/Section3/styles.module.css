@@ -1,0 +1,19 @@
+.features{
+    padding: 60px;
+    overflow: hidden;
+    display: block;
+}
+/* .nav-link:hover {
+    pointer-events: none;
+  }
+   */
+.nav-link .active{
+    color: aqua !important;
+}
+.myCustomClass{
+    max-width: 100%;
+    height: 450px;
+    background-color: #ca1f1f;
+    animation: slide-down 0.5s ease-out;
+    /* border-radius: 50px;  */
+}
