@@ -1,0 +1,176 @@
+.head{
+   background-color: #f2f9f8;}
+   
+   
+   .tabs{
+    
+    
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(165, 169, 171);
+    
+    box-sizing: border-box;
+
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+  text-align: center;
+    max-width: 300px;
+     display: flex;
+    justify-content: center;
+		  
+   }
+   .portfolioflters{
+    
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  
+    display: inline-block;
+ 
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius:30px;
+    padding: 10px;
+   }
+   .fs{
+    display: inline-block;
+    margin-left:15px;
+    font-size: 20px;
+    /* color: #1bac91; */
+    
+   }
+   .fs1{
+    display: inline-block;
+    margin-left:15px;
+    font-size: 20px;
+     color: #1bac91; 
+    
+   }
+
+
+  
+
+  /*click id*/
+  .activee{
+    background-color: rgb(73, 32, 219);}
+
+#btn1 ,#btn2, #btn3{
+    margin:14px;
+    padding: 16px;
+ 
+}
+#btn4{
+    margin:14px;
+    padding-left: 18px;
+}
+ /*imagesdsfsdf*/
+ .containerr{
+  position: relative;
+  /* width: 50%; */
+}
+
+/* Make the image to responsive */
+.image1 {
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlayy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #444444;
+  overflow: hidden;
+  width:350px;
+  height: 300px ;
+  transform: scale(0);
+  transition: .5s ease;
+  opacity: 0.7;
+  /* border-top-style:25px solid;
+  border-color:beige;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff; */
+}
+.containerr:hover .overlayy::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+
+.containerr:hover .overlayy::before {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  transition: all 0.5s ease 0s;
+  z-index: 9994;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.containerr:hover .overlayy {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.textt {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* border stylr*/
+.Test {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(170, 46, 46);
+  padding: 20px;
+}
+
+.Test::before,
+.Test::after {
+  content: "";
+  position: absolute;
+  border: 2px solid rgb(145, 30, 30);
+}
+
+.Test:before {
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 100%;
+  border-bottom: none;
+}
+
+.Test::after {
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  border-left: none;
+}
+

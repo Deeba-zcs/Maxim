@@ -1,0 +1,13 @@
+.navbarnav .navitem :hover{
+    color:#e6e5ec;
+    }
+    .active{
+      color:#4e4edc !important;
+      }
+
+    .navbarnav .navitem{
+        
+        display:inline-block;
+        text-decoration: none;
+        color:#ececef;
+      }
