@@ -129,16 +129,25 @@ function Testimonials() {
                     </SwiperSlide>
                   </div>
                 </div>
-                <Style jsx>
-                {`{.swiper-pagination-bullet.swiper-pagination-bullet-active{
-               background-color:red}`}
-
-                </Style>
+              
               </>
             );
           })}
         </Swiper>
       </div>
+      <style global>
+        {`.swiper-pagination-bullet{
+         
+              width: 15px;
+              height: 15px;
+              opacity: 1;
+              border: 1px solid #1bac91;
+               background-color:white}
+               .swiper-pagination-bullet.swiper-pagination-bullet-active{
+                background-color:#1bac91;
+               }
+               `}
+      </style>
     </div>
   );
 }
