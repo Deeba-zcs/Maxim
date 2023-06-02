@@ -30,12 +30,7 @@
     outline-color:white;
     outline-width: 5px;
 }
-.swiper-wrapper .swiper-pagination  .swiper-pagination-bullet{
-    background-color: rgb(89, 255, 0);
-}
-.swiper-pagination-bullet.swiper-pagination-bullet-active{
-    background-color:red
-}
+
 @keyframes fadeInUp {
     0% {
       transform: translateY(100%);
