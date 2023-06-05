@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = 
+{
+    images: {
+        domains: ['bootstrapmade.com'],
+      }
+}
 
-module.exports = nextConfig
+module.exports = {
+    images: {
+      domains: ['bootstrapmade.com'],
+    },
+  };
