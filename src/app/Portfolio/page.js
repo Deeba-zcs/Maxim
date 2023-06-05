@@ -4,6 +4,7 @@ import portfolio7 from "@/app/Images/portfolio-7.jpg";
 import Style from "./portfolio.module.css";
 import Image from "next/image";
 import Imageslider from "../Imageslider/page";
+import Innerportfolio from "../Innerportfolio/page"
 
 import Link from "next/link";
 
@@ -103,7 +104,7 @@ function Portfolio() {
                           {d.title}
                           <br />
                           <Link href={"/Imageslider"} className="text-white text-decoration-none">{<i className="fa-sharp fa-solid fa-plus fa-l" ></i>}</Link>
-                          {<i className="fa-sharp fa-solid fa-link fa-l p-3"></i>}
+                          <Link href={"/Innerportfolio"} className="text-white text-decoration-none">   {<i className="fa-sharp fa-solid fa-link fa-l p-3"></i>}</Link>
                          
                         </div>
                       

@@ -11,29 +11,43 @@ import Style from "./Imagecss.module.css";
 function Imageslider() {
   return(
   <>
-<Container   >
+
+<style jsx global>
+    {
+        ` .carousel-indicators [data-bs-target]
+        { 
+          background-color:transparent;
+               }`
+               
+               }
+               </style>
+<Container className="bg-dark"  >
   <Row>
     <Col>
-<Carousel fade variant='dark'>
+<Carousel>
   
-  <Carousel.Item interval={500}>
-    <Image
+  <Carousel.Item interval={1000}>
+
+  <Image
      id={1}
       src={portfolio2}
      
       className={Style.Imagecss}
     />
+
+
+   
   </Carousel.Item>
 
-  <Carousel.Item interval={500}>
+  <Carousel.Item interval={1000}>
     <Image
     id={2}
     src={portfolio3}
-  
+
       className={Style.Imagecss}
     />
 </Carousel.Item>
-  <Carousel.Item interval={500}>
+  <Carousel.Item interval={1000}>
     <Image
      id={3}
       src={portfolio4}
@@ -42,13 +56,15 @@ function Imageslider() {
       className={Style.Imagecss}
     />
   </Carousel.Item>
-  <Carousel.Item interval={500}>
+  <Carousel.Item interval={100}>
     <Image
     id={4}
       src={portfolio3}
       
       className={Style.Imagecss}
+  
     />
+   
   </Carousel.Item>
 </Carousel>
     </Col>
