@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import portfolio7 from "@/app/Images/portfolio-7.jpg";
 import Style from "./portfolio.module.css";
 import Image from "next/image";
+import Imageslider from "../Imageslider/page";
+
+import Link from "next/link";
+
 
 import List from "./List";
 
@@ -29,7 +33,7 @@ function Portfolio() {
     <div className={Style.test}></div>
       
       {/*Card*/}
-      <div className={` container   py-3 ${Style.head}`}>
+      <div className={` container   py-3 ${Style.head}`} id="portfolio">
         <div className=" d-flex justify-content-center display-5 py-3">
           Portfolio
         </div>
@@ -85,7 +89,7 @@ function Portfolio() {
             {item.map((d) => {
               return (
                 <>
-                  <div className="col-lg-4 col-md-6 col-sm-12 mt-3">
+                  <div className=" d-flex justify-content-center col-lg-4 col-md-6 col-sm-12 mt-3">
                     <div className={Style.containerr}>
                       <Image
                         src={d.imgsrc}
@@ -98,7 +102,7 @@ function Portfolio() {
                         <div className={Style.textt}>
                           {d.title}
                           <br />
-                          {<i className="fa-sharp fa-solid fa-plus fa-l"></i>}
+                          <Link href={"/Imageslider"} className="text-white text-decoration-none">{<i className="fa-sharp fa-solid fa-plus fa-l" ></i>}</Link>
                           {<i className="fa-sharp fa-solid fa-link fa-l p-3"></i>}
                          
                         </div>

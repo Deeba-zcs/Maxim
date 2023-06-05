@@ -64,8 +64,8 @@
 
 .overlay
 {
-    position: absolute;
-  top: 0;
+    position: relative;
+  top: 200;
   left: 0;
   right: 0;
   bottom: 0;
