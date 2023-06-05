@@ -85,7 +85,7 @@
   right: 0;
   background-color: #444444;
   overflow: hidden;
-  width:350px;
+  width:400px;
   height: 300px ;
   transform: scale(0);
   transition: .5s ease;
