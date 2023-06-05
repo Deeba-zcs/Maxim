@@ -1,4 +1,6 @@
 import '../contact/page.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 
 function page() {
   return (
