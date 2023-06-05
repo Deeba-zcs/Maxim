@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import 'bootstrap/dist/js/bootstrap.bundle.min';
 const inter = Inter({ subsets: ['latin'] })
-import Menubar from './Menubar/page';
+
 import Link from 'next/link';
 import Header from './header/header';
 export const metadata = {

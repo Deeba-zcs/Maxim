@@ -11,41 +11,42 @@ import Style from "./Imagecss.module.css";
 function Imageslider() {
   return(
   <>
-<Container>
+<Container   >
   <Row>
     <Col>
 <Carousel fade variant='dark'>
   
   <Carousel.Item interval={500}>
     <Image
+     id={1}
       src={portfolio2}
       // width={1200}
-      height={300}
+      // height={300}
       className={Style.Imagecss}
     />
   </Carousel.Item>
 
   <Carousel.Item interval={500}>
     <Image
-      src={portfolio3}
+    id={2}
+    src={portfolio3}
       // width={900}
-       height={300}
       className={Style.Imagecss}
     />
 </Carousel.Item>
   <Carousel.Item interval={500}>
     <Image
+     id={3}
       src={portfolio4}
       // width={900}
-       height={300}
       className={Style.Imagecss}
     />
   </Carousel.Item>
   <Carousel.Item interval={500}>
     <Image
+    id={4}
       src={portfolio3}
       // width={900}
-       height={300}
       className={Style.Imagecss}
     />
   </Carousel.Item>
