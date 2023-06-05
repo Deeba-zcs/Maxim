@@ -32,7 +32,7 @@ const Section3=()=>{
   };
   // For on click images
   return (
-    <div>
+    <div id='section3'>
       <section id="features" className='features'>
         <div className="container">
           <div className="row">

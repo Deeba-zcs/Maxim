@@ -20,8 +20,7 @@ function Imageslider() {
     <Image
      id={1}
       src={portfolio2}
-      // width={1200}
-      // height={300}
+     
       className={Style.Imagecss}
     />
   </Carousel.Item>
@@ -30,7 +29,7 @@ function Imageslider() {
     <Image
     id={2}
     src={portfolio3}
-      // width={900}
+  
       className={Style.Imagecss}
     />
 </Carousel.Item>
@@ -38,7 +37,8 @@ function Imageslider() {
     <Image
      id={3}
       src={portfolio4}
-      // width={900}
+   
+
       className={Style.Imagecss}
     />
   </Carousel.Item>
@@ -46,7 +46,7 @@ function Imageslider() {
     <Image
     id={4}
       src={portfolio3}
-      // width={900}
+      
       className={Style.Imagecss}
     />
   </Carousel.Item>

@@ -20,5 +20,10 @@
   }
 }
 
+.nav{
+  position: sticky !important;
+  margin-top: 0;
+}
+
 
 

@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
 
-
+h2{
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: 900;
+}
+p{
+    justify-content: center;
+}
 .team{
   font-family: "Open Sans", sans-serif;
 }
