@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Header() {
     
   return (
-    <header id="header" className="fixed-top d-flex align-items-center">
+    <header id="header" className="fixed-top d-flex align-items-center nav">
     <div className="container d-flex justify-content-between">
 
       <div className="logo">
