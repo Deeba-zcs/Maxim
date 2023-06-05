@@ -16,13 +16,13 @@ export default function Header() {
 
       <nav id="navbar" className="navbar pr-3">
         <ul>
-          <li><Link className="nav-link scrollto active" href="#hero">Home</Link></li>
-          <li><Link className="nav-link scrollto" href="Section3">About</Link></li>
-          <li><Link className="nav-link scrollto" href="services">Services</Link></li>
-          <li><Link className="nav-link scrollto " href="Portfolio">Portfolio</Link></li>
-          <li><Link className="nav-link scrollto" href="team">Team</Link></li>
-          <li><Link className="nav-link scrollto" href="Testimonials">Testimonials</Link></li>
-          <li><Link className="nav-link scrollto" href="contact">Contact</Link></li>
+          <li><Link className="nav-link scrollto active" href="#maxim">Home</Link></li>
+          <li><Link className="nav-link scrollto" href="#section3">About</Link></li>
+          <li><Link className="nav-link scrollto" href="#services">Services</Link></li>
+          <li><Link className="nav-link scrollto " href="#portfolio">Portfolio</Link></li>
+          <li><Link className="nav-link scrollto" href="#team">Team</Link></li>
+          <li><Link className="nav-link scrollto" href="#test">Testimonials</Link></li>
+          <li><Link className="nav-link scrollto" href="#contact">Contact</Link></li>
         </ul>
         
         <i className="bi bi-list mobile-nav-toggle"></i>

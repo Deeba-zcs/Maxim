@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Maxim() {
   return (
-    <div className='super'>
+    <div className='super' id='maxim'>
       
       <section className='overlay'>
       <div id="hero" className="hero 
