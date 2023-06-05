@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -15,3 +19,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+
+
