@@ -1,3 +1,5 @@
+import '../contact/page.css'
+
 function page() {
   return (
     <>
