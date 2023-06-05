@@ -14,33 +14,15 @@ export default function Header() {
       </div>
       
 
-      <nav id="navbar" className="navbar">
+      <nav id="navbar" className="navbar pr-3">
         <ul>
-          <li><Link className="nav-link scrollto active" href="#hero">Home</Link></li>
-          <li><Link className="nav-link scrollto" href="Section3">About</Link></li>
-          <li><Link className="nav-link scrollto" href="services">Services</Link></li>
-          <li><Link className="nav-link scrollto " href="Portfolio">Portfolio</Link></li>
-          <li><Link className="nav-link scrollto" href="team">Team</Link></li>
-          <li><Link className="nav-link scrollto" href="Testimonials">Testimonials</Link></li>
-          <li><Link className="nav-link scrollto" href="contact">Contact</Link></li>
-          <li className="dropdown"><Link href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></Link>
-            <ul>
-              <li><Link href="#">Drop Down 1</Link></li>
-              <li className="dropdown"><Link href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-right"></i></Link>
-                <ul>
-                  <li><Link href="#">Deep Drop Down 1</Link></li>
-                  <li><Link href="#">Deep Drop Down 2</Link></li>
-                  <li><Link href="#">Deep Drop Down 3</Link></li>
-                  <li><Link href="#">Deep Drop Down 4</Link></li>
-                  <li><Link href="#">Deep Drop Down 5</Link></li>
-                </ul>
-              </li>
-              <li><Link href="#">Drop Down 2</Link></li>
-              <li><Link href="#">Drop Down 3</Link></li>
-              <li><Link href="#">Drop Down 4</Link></li>
-            </ul>
-          </li>
-          
+          <li><Link className="nav-link scrollto active" href="#maxim">Home</Link></li>
+          <li><Link className="nav-link scrollto" href="#section3">About</Link></li>
+          <li><Link className="nav-link scrollto" href="#services">Services</Link></li>
+          <li><Link className="nav-link scrollto " href="#portfolio">Portfolio</Link></li>
+          <li><Link className="nav-link scrollto" href="#team">Team</Link></li>
+          <li><Link className="nav-link scrollto" href="#test">Testimonials</Link></li>
+          <li><Link className="nav-link scrollto" href="#contact">Contact</Link></li>
         </ul>
         
         <i className="bi bi-list mobile-nav-toggle"></i>
