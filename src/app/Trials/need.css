@@ -9,9 +9,7 @@
     padding-bottom: 50px;
     font-family: 'Poppins', sans-seri;
     font-size: 16px;
-    /* max-width: 960px; */
-    /* margin-left: auto;
-    margin-right: auto; */
+    
   }
 
 
@@ -25,7 +23,7 @@
 {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    /* color: brown; */
+   
 }
 
 .item
@@ -35,12 +33,6 @@
   border: none;
 }
 
-/* head:hover
-{
-    color: #22d8b6;
-    text-decoration: none;
-    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
-} */
 
 .item:hover .what
 {
@@ -63,38 +55,3 @@
   color: #1BAC91 !important;
 }
 
-
-
-
-
-
-
-
-
-/* .item .what.active {
-  color: #ff0000; 
-}
-
-.accordion-item.active .accordion-button {
-  color: #fbcd00; 
-} */
-/* 
-.item .what.active {
-  color: #ff0000 !important;
-}
-
-.accordion-item.active .accordion-button {
-  color: #fbcd00 !important;
-}
-.accordion-item.active {
-  background-color: red; 
-} */
-
-
-/* .what.active {
-  color: #ff0000;
-}
-
-.head.active {
-  color: #ff0000;
-} */
