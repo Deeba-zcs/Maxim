@@ -12,7 +12,7 @@ export default function Services() {
       <section id="services" className="services section-bg pb-5 pt-5">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
-            <h2 className="text-center pb-2 font-bold">Services</h2>
+            <h2 className="text-center pb-2 font-bold text-4xl">Services</h2>
             <p className="text-center pb-2">
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
