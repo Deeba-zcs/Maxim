@@ -10,7 +10,7 @@ function page() {
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2 className="contact-head text-center text-gray-700">Contact</h2>
+          <h2 className="contact-head text-center text-gray-700 font-bold text-4xl">Contact</h2>
           <p className="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -46,7 +46,7 @@ function page() {
 
         </div>
 
-        <div class="row mt-5 justify-content-center" data-aos="fade-up">
+        <div class="row mt-5 justify-content-center pb-5" data-aos="fade-up">
           <div class="col-lg-10">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
