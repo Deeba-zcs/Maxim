@@ -36,7 +36,7 @@ export default function Header() {
               <li><Link href="#">Drop Down 4</Link></li>
             </ul>
           </li>
-          <li><Link className="nav-link scrollto" href="#contact">Contact</Link></li>
+          <li><Link className="nav-link scrollto" href="contact">Contact</Link></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle"></i>
       </nav>
