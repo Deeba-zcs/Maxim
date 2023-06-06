@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const inter = Inter({ subsets: ['latin'] })
 import Menubar from './Menubar/page';
 import Link from 'next/link';
-import Header from './header/header';
+
 import Footer from './footer/page';
 import Maxim from './Home-banner/page';
 export const metadata = {
@@ -23,8 +23,7 @@ export default function RootLayout({ children }) {
   
     <html lang="en">
       <body className={inter.className}>
-
-      <Header />
+     <Menubar/>
       {children}
       <Footer />
       </body>
