@@ -120,7 +120,7 @@ function Testimonials() {
                           </div>
                           <Image src={d.imgsrc}  width={70}
                             height={70} alt="Picture of the author"
-                            className={`rounded-circle ms-4 border-danger border-5 ${Style.myimg}`}/>
+                            className={`rounded-circle ms-4  border-0 ${Style.myimg}`}/>
 
                           <h4 className={` ms-4 pt-1 ${Style.name}`}>{d.name}</h4>
                           <h6 className={` ms-4 pt-0 ${Style.namecolor}`}>{d.post}</h6>

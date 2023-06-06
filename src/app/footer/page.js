@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
+import '../footer/page.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 
 export default function Footer() {
   return (
